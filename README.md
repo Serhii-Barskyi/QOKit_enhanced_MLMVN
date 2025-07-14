@@ -1,35 +1,36 @@
 # SmartQAOA: Neural Network-Enhanced Quantum Approximate Optimization Algorithm
 
 A comprehensive implementation of QAOA (Quantum Approximate Optimization Algorithm) enhanced with neural networks for solving MaxCut, MinCut, and portfolio optimization problems.
+
 By SigmaPublishinQ Team https://www.linkedin.com/company/sigma-publishinq
 
 ## 🚀 Project Overview
 
 SmartQAOA consists of two main components:
 
-### 1. short_SmartQAOA
+### 1. short_SmartQAOA 
 An optimized QAOA implementation that uses neural networks to predict initial QAOA parameters (γ, β), reducing iterations to one and improving the approximation ratio by **5.27%** compared to numerical optimization (COBYLA).
 
-### 2. full-featured SmartQAOA
-A scalable QAOA extension supporting MaxCut, MinCut, and portfolio optimization with advanced features including multilayer neural network based on multi-valued neurons (Aizenberg MLMVN), recursive QAOA (RQAOA), and spectral analysis.
+### 2. full-featured SmartQAOA with MLMVN
+A scalable QAOA extension supporting MaxCut, MinCut, and portfolio optimization with portfolio cuts and advanced features including multilayer neural network based on multi-valued neurons (Aizenberg MLMVN), recursive QAOA (RQAOA), and spectral analysis.
 
 ## 📊 Key Features
 
-- **Neural Parameter Prediction**: Uses neural networks to predict optimal QAOA parameters
-- **Multiple Problem Types**: Supports MaxCut, MinCut, and portfolio optimization
+- **Neural Parameter Prediction**: uses neural networks to predict optimal QAOA parameters
+- **Multiple Problem Types**: supports MaxCut, MinCut, and portfolio optimization
 - **Significant Speedup**: ~15-20x faster execution with single iteration
-- **Quantum-Ready**: Portable to quantum devices via pytket
-- **Modular Design**: Clean, extensible architecture
+- **Quantum-Ready**: portable to quantum devices via pytket
+- **Modular Design**: clean, extensible architecture
 
 ## 🛠️ Technologies
 
-- **QOKit Library**: Core QAOA implementation
+- **QOKit Library**: core QAOA implementation
 - **Multilayer neural network based on Multi-Valued Neurons (Aizenberg MLMVN)**: Core neural network implementation
-- **PyTorch**: Neural network framework
-- **NetworkX**: Graph operations
-- **Qiskit**: Quantum computing framework
-- **pytket**: Quantum device integration
-- **Google Colab**: Development environment
+- **PyTorch**: neural network framework
+- **NetworkX**: graph operations
+- **Qiskit**: quantum computing framework
+- **pytket**: quantum device integration
+- **Google Colab**: development environment
 
 ## 📋 Requirements
 
@@ -59,6 +60,7 @@ pip install urllib3==1.26.6 qiskit==1.0.2 qiskit-aer==0.14.1 networkx tqdm pytke
 
 3. **Run the Benchmark**
    ```bash
+   # Find benchmark_short.ipynb in https://github.com/Serhii-Barskyi/QOKit_enhanced_MLMVN/tree/main/short_smart_qaoa_example 
    # Open benchmark_short.ipynb in Google Colab
    # Execute all cells sequentially
    ```
@@ -84,7 +86,7 @@ pip install urllib3==1.26.6 qiskit==1.0.2 qiskit-aer==0.14.1 networkx tqdm pytke
 └── utils.py                      # Utility functions
 ```
 
-### full-featured SmartQAOA
+### full-featured SmartQAOA with MLMVN
 ```
 ├── smart_qaoa.py                 # Main integration module
 ├── mlmvn_network.py             # Multilayer neural network
@@ -150,7 +152,7 @@ Minimizing graph cuts for:
 - Clustering algorithms
 - Resource allocation
 
-### Portfolio Optimization
+### Portfolio Optimization with Portfolio cuts
 Dynamic asset clustering to minimize financial risk:
 - Risk minimization strategies
 - Asset correlation analysis
@@ -158,11 +160,11 @@ Dynamic asset clustering to minimize financial risk:
 
 ## 🔮 Future Prospects
 
-- **Scalability**: Expand to larger graphs (N > 16)
-- **Quantum Integration**: Full deployment on quantum devices via pytket
-- **Enhanced Neural Networks**: Broader QAOA applications
-- **Real-world Applications**: Financial portfolio optimization at scale
-- **Hybrid Classical-Quantum**: Optimal resource utilization
+- **Scalability**: expand to larger graphs (N > 16)
+- **Quantum Integration**: full deployment on quantum devices via pytket
+- **Enhanced Neural Networks**: broader QAOA applications
+- **Real-world Applications**: financial portfolio optimization at scale
+- **Hybrid Classical-Quantum**: optimal resource utilization
 
 ## 🤝 Contributing
 
@@ -181,6 +183,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - QOKit library developers https://github.com/jpmorganchase/QOKit
 - Quantum computing community
 - Google Colab platform
+- Potomac Quantum Innovation Center https://www.pqic.org/
+- Aqora https://aqora.io/
+- Connected DMV https://www.connecteddmv.org/
+- Quantum Australia https://quantum-australia.com/
+- qBraid https://www.qbraid.com/
+
 
 
 ## 📞 Contact
@@ -192,6 +200,7 @@ Reinforcement Learning Engineer / Data Scientist
 | QUBO: SK, PO, MaxCut
 
 **https://www.linkedin.com/in/serhii-barskyi/**
+
 **https://www.linkedin.com/company/sigma-publishinq**
 
 
