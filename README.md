@@ -88,15 +88,21 @@ pip install urllib3==1.26.6 qiskit==1.0.2 qiskit-aer==0.14.1 networkx tqdm pytke
 
 ### full-featured SmartQAOA with MLMVN
 ```
-├── smart_qaoa.py                 # Main integration module
-├── mlmvn_network.py             # Multilayer neural network
-├── complex_mvn.py               # Complex-valued networks
-├── adamw_optimizer.py           # Advanced optimizer
-├── rqaoa_agent_main.py          # Recursive QAOA
-├── computational_core.py        # Expectation calculations
-├── graph.py                     # Graph operations
-├── scaling_analyzer.py          # Scalability analysis
-└── utils.py                     # Utility functions
+smart_qaoa.py                     # Main Smart QAOA module with neural optimization
+├── mlmvn_network.py              # Multilayer neural network (MLMVN) for QAOA
+│   └── complex_mvn.py            # Complex-valued neurons (MVN)
+├── adamw_optimizer.py            # AdamW optimizer with cosine scheduler
+├── rqaoa_agent_main.py           # RL-agent for recursive QAOA (RQAOA, reinforcement learning)
+├── computational_core.py         # Expectation and Hamiltonian calculations
+├── graph.py                      # Graph operations (generation, vertex elimination)
+├── scaling_analyzer.py           # QAOA scalability analysis
+├── adaptive_scaling.py           # Adaptive scaling (entropy, topology)
+├── spectral_core.py              # Spectral operations (Laplacian, adjacency matrix)
+├── cache_manager.py              # Cache management for spectral data
+├── graph_spectral_fft.py         # Spectral FFT encoding for graphs
+├── config.py                     # Centralized configuration
+├── rqaoa_algorithms.py           # Classical RQAOA algorithm
+└── utils.py                      # Utilities (random weights, file operations)
 ```
 
 ## 📈 Performance Metrics
