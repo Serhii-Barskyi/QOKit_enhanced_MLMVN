@@ -8,10 +8,10 @@ By SigmaPublishinQ Team https://www.linkedin.com/company/sigma-publishinq
 
 SmartQAOA consists of two main components:
 
-### 1. short_SmartQAOA 
+### 1. short_SmartQAOA ⚛️
 An optimized QAOA implementation that uses neural networks to predict initial QAOA parameters (γ, β), reducing iterations to one and improving the approximation ratio by **5.27%** compared to numerical optimization (COBYLA).
 
-### 2. full-featured SmartQAOA with MLMVN
+### 2. full-featured SmartQAOA with MLMVN ⚛️ ⚛️ ⚛️
 A scalable QAOA extension supporting MaxCut, MinCut, and portfolio optimization with portfolio cuts and advanced features including multilayer neural network based on multi-valued neurons (Aizenberg MLMVN), recursive QAOA (RQAOA), and spectral analysis.
 
 ## 📊 Key Features
