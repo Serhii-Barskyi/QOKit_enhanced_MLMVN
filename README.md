@@ -25,7 +25,7 @@ A scalable QAOA extension supporting MaxCut, MinCut, and portfolio optimization 
 ## 🛠️ Technologies
 
 - **QOKit Library**: core QAOA implementation
-- **Multilayer neural network based on Multi-Valued Neurons (Aizenberg MLMVN)**: Core neural network implementation
+- **Multilayer neural network based on Multi-Valued Neurons (Aizenberg MLMVN)**: core neural network implementation
 - **PyTorch**: neural network framework
 - **NetworkX**: graph operations
 - **Qiskit**: quantum computing framework
