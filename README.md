@@ -82,8 +82,8 @@ pip install urllib3==1.26.6 qiskit==1.0.2 qiskit-aer==0.14.1 networkx tqdm pytke
 ├── cut_analyzer.py               # Cut quality evaluation
 ├── qaoa_maxcut_engine.py         # Core QAOA simulation
 ├── neuro_maxcut_tests.py         # Unit tests
-├── erdos_renyi_fabric.py         # Graph generation
-└── utils.py                      # Utility functions
+└── erdos_renyi_fabric.py         # Graph generation
+
 ```
 
 ### full-featured SmartQAOA with MLMVN
