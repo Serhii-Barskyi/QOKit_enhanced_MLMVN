@@ -1,6 +1,7 @@
 # SmartQAOA: Neural Network-Enhanced Quantum Approximate Optimization Algorithm
 
 A comprehensive implementation of QAOA (Quantum Approximate Optimization Algorithm) enhanced with neural networks for solving MaxCut, MinCut, and portfolio optimization problems.
+By SigmaPublishinQ Team https://www.linkedin.com/company/sigma-publishinq
 
 ## 🚀 Project Overview
 
@@ -10,7 +11,7 @@ SmartQAOA consists of two main components:
 An optimized QAOA implementation that uses neural networks to predict initial QAOA parameters (γ, β), reducing iterations to one and improving the approximation ratio by **5.27%** compared to numerical optimization (COBYLA).
 
 ### 2. full-featured SmartQAOA
-A scalable QAOA extension supporting MaxCut, MinCut, and portfolio optimization with advanced features including multilayer multilevel neural networks (MLMVN), recursive QAOA (RQAOA), and spectral analysis.
+A scalable QAOA extension supporting MaxCut, MinCut, and portfolio optimization with advanced features including multilayer neural network based on multi-valued neurons (Aizenberg MLMVN), recursive QAOA (RQAOA), and spectral analysis.
 
 ## 📊 Key Features
 
@@ -119,7 +120,7 @@ Results including approximation ratio and execution time will appear in the note
 
 ## 🔬 Advanced Features (full-featured SmartQAOA)
 
-### Multilayer Multilevel Neural Network (MLMVN)
+### Multilayer neural network based on Multi-Valued Neurons (Aizenberg MLMVN)
 - Predicts optimal QAOA parameters with complex weights
 - Adapts to graph topology using least squares method with soft margins
 - Enhanced stability with AdamW optimizer
@@ -175,7 +176,7 @@ We welcome contributions! Please see our contributing guidelines for:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
-
+- Professor Igor Aizenberg https://scholar.google.com/citations?hl=en&user=ZjfN_9AAAAAJ&view_op=list_works&sortby=pubdate
 - QOKit library developers https://github.com/jpmorganchase/QOKit
 - Quantum computing community
 - Google Colab platform
@@ -190,6 +191,7 @@ Reinforcement Learning Engineer / Data Scientist
 | QUBO: SK, PO, MaxCut
 
 **https://www.linkedin.com/in/serhii-barskyi/**
+**https://www.linkedin.com/company/sigma-publishinq**
 
 
 
